@@ -10,16 +10,58 @@ const Projects = styled.section`
 `
 
 const Project = styled.div`
+    position: relative;
+    z-index: 0;
     width: 375px;
     flex-grow: 1;
     background-color: ${Theme.colors.secondaryBg};
     border-radius: 20px;
-    box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.30);
-    transition: box-shadow,transform .9s ease-out;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform .9s ease 0s;
+
+    animation: fadeUp 1000ms ease 0ms 1 normal;
+    
+    @keyframes fadeUp{
+        0% {
+            opacity: 0;
+            -webkit-transform: translate3d(0, 100%, 0);
+            -moz-transform: translate3d(0, 100%, 0);
+            -ms-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+            }
+
+        100% {
+            opacity: 1;
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            }
+    }
+    
+
+    &::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        border-radius: 20px;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+        transition: opacity .9s ease 0s;
+        }
 
     &:hover {
-        transform: scale(1.05);
-        transition: transform .9s ease-out 0s;
+        transform: scale(1.07);
+    }
+
+    &:hover::after {
+        opacity: 1;
     }
 
     /* @media ${Theme.media.desktop} {

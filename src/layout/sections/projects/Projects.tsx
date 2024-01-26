@@ -38,13 +38,13 @@ export const Projects: React.FC = () => {
                     <SectionTitle>Projects</SectionTitle>
                 </Fade>
                 <FlexWrapper justify={"space-between"} align={"flex-start"} wrap={"wrap"}>
-                        {projectData.map((p, index)=> {
-                            return <Project key={index}
-                                            title={p.title}
-                                            src={p.src}
-                                            text={p.text}
-                                            description={p.description} />
-                        })}
+                    {projectData.map((p, index) => {
+                        return <Project key={index}
+                            title={p.title}
+                            src={p.src}
+                            text={p.text}
+                            description={p.description} />
+                    })}
                 </FlexWrapper>
             </Container>
         </S.Projects>
