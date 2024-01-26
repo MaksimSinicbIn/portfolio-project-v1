@@ -10,8 +10,8 @@ const contactItemData = [
         text: "+7 983 362-99-29"
     },
     {
-        href: "mailto:dzigen1986@gmail.com",
-        text: "dzigen1986@gmail.com"
+        href: "mailto:dkonstantinov.work@gmail.com",
+        text: "dkonstantinov.work@gmail.com"
     },
 ]
 
@@ -47,10 +47,6 @@ export const Footer: React.FC = () => {
                                     </S.ContactItem >
                                 )
                             })}
-                            {/* <S.ContactItem>
-                                <S.ContactLink href="tel:+79833629929">+7 983 362-99-29</S.ContactLink>
-                                <S.ContactLink href="mailto:dzigen1986@gmail.com">dzigen1986@gmail.com</S.ContactLink>
-                            </S.ContactItem > */}
                         </S.ContactList>
                         <S.SocialList>
                             {socialItemData.map((s, index)=> {
