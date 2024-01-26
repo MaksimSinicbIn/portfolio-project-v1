@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import { FlexWrapper } from "../../../components/FlexWrapper"
+import { Theme } from "../../../styles/Theme"
 
 const About = styled.section`
     ${FlexWrapper} {
@@ -17,6 +18,7 @@ const About = styled.section`
 const Text = styled.p`
     display: inline-block;
     font-weight: 400;
+    color: ${Theme.colors.accent};
 `
 
 const AboutDescription = styled.div`
@@ -29,7 +31,13 @@ const AboutDescription = styled.div`
     row-gap: 20px;
 `
 const DescriptionTitle = styled.h3`
-    
+    font-weight: 600;
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -1px;
+    white-space: nowrap;
 `
 
 const EducationList = styled.ul`
@@ -45,10 +53,6 @@ const EducationName = styled.h4`
     
 `
 
-const EducationDescription = styled.span`
-    
-`
-
 export const S = {
     About,
     Text,
@@ -56,6 +60,5 @@ export const S = {
     DescriptionTitle,
     EducationList,
     EducationItem,
-    EducationName,
-    EducationDescription
+    EducationName
 }

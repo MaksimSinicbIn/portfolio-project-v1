@@ -8,6 +8,7 @@ import { Photo } from '../../../components/Photo';
 import { S } from './About_Styles';
 import { Fade } from "react-awesome-reveal";
 
+
 export const About: React.FC = () => {
     return (
         <S.About id="about">
@@ -20,17 +21,17 @@ export const About: React.FC = () => {
                         <Photo src={photo} alt="photo" />
                     </PhotoWrapper>
                     <S.AboutDescription>
-                        <S.DescriptionTitle>My professional activity</S.DescriptionTitle>
+                        <S.DescriptionTitle>Dmitry Konstantinov</S.DescriptionTitle>
                         <S.Text>I'm frontend developer with experience in creating SPA using React,TypeScript, JavaScript, CSS, HTML. I am enthusiastic team player focused on personal growth. Now I am improving my skills in this direction and expanding them with new technologies.</S.Text>
                         <S.EducationList>
                             <S.DescriptionTitle>Education:</S.DescriptionTitle>
                             <S.EducationItem>
                                 <S.EducationName>Trade and Economic Institute | Siberian Federal University:</S.EducationName>
-                                <S.EducationDescription>Management</S.EducationDescription>
+                                <S.Text>Management</S.Text>
                             </S.EducationItem>
                             <S.EducationItem>
                                 <S.EducationName>IT-Incubator:</S.EducationName>
-                                <S.EducationDescription>React Development</S.EducationDescription>
+                                <S.Text>React Development</S.Text>
                             </S.EducationItem>
                         </S.EducationList>
                     </S.AboutDescription>
