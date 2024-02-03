@@ -6,6 +6,8 @@ const Contacts = styled.section`
 `
 
 const Form = styled.form`
+    position: relative;
+    z-index: 0;
     max-width: 700px;
     width: 100%;
     border-radius: 20px;
@@ -16,7 +18,7 @@ const Form = styled.form`
     gap: 24px;
     padding: 24px;
     margin: 0 auto;
-    
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 
     textarea {
         resize: none;
