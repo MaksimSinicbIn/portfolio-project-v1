@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { font } from "../../../styles/Common"
 import { FlexWrapper } from "../../../components/FlexWrapper"
+import { Theme } from "../../../styles/Theme"
 
 const Main = styled.section`
     display: flex;
@@ -8,6 +9,10 @@ const Main = styled.section`
     
     ${FlexWrapper} {
         gap: 15px;
+    }
+
+    @media ${Theme.media.mobile} {
+        padding-top: 120px;
     }
 
     @media screen and (max-width: 1075px) {
