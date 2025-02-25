@@ -12,8 +12,8 @@ export const Main: React.FC = () => {
             <Container>
                 <FlexWrapper align={"center"} justify={"space-between"} wrap={"wrap"}>
                     <div>
-                        <S.GreetingsText>Hi, 
-                            <S.GreetingsSmiley>👋</S.GreetingsSmiley> 
+                        <S.GreetingsText>Hi,
+                            <S.GreetingsSmiley>👋</S.GreetingsSmiley>
                         </S.GreetingsText>
                         <S.GreetingsText>My name is</S.GreetingsText>
                         <S.Name>Dmitry Konstantinov</S.Name>

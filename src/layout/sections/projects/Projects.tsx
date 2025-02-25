@@ -50,4 +50,3 @@ export const Projects: React.FC = () => {
         </S.Projects>
     );
 };
-

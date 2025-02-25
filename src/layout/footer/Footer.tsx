@@ -40,8 +40,8 @@ export const Footer: React.FC = () => {
                 <FlexWrapper direction={"column"} justify={"space-around"}>
                     <S.FooterListsBox>
                         <S.ContactList>
-                            {contactItemData.map((c, index)=> {
-                                return(
+                            {contactItemData.map((c, index) => {
+                                return (
                                     <S.ContactItem key={index}>
                                         <S.ContactLink href={c.href}>{c.text}</S.ContactLink>
                                     </S.ContactItem >
@@ -49,8 +49,8 @@ export const Footer: React.FC = () => {
                             })}
                         </S.ContactList>
                         <S.SocialList>
-                            {socialItemData.map((s, index)=> {
-                                return(
+                            {socialItemData.map((s, index) => {
+                                return (
                                     <S.SocialItem key={index}>
                                         <S.SocialLink href={s.href}>
                                             <Icon height={"25px"} width={"25px"} viewBox={s.viewBox} iconId={s.iconId} />
@@ -60,7 +60,6 @@ export const Footer: React.FC = () => {
                             })}
                         </S.SocialList>
                     </S.FooterListsBox>
-
                     <S.Copyright>Developed by Dmitry Konstantinov in 2024</S.Copyright>
                 </FlexWrapper>
             </Container>

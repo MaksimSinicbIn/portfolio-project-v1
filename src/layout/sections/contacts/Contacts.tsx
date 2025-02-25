@@ -32,15 +32,15 @@ export const Contact: React.FC = () => {
                     <S.Form ref={form} onSubmit={sendEmail}>
                         <S.FieldSection>
                             <S.FieldLabel htmlFor="userName">Name</S.FieldLabel>
-                            <S.Field required id="userName" placeholder={"Name"} name={'user_name'}/>
+                            <S.Field required id="userName" placeholder={"Name"} name={'user_name'} />
                         </S.FieldSection>
                         <S.FieldSection>
                             <S.FieldLabel htmlFor="userEmail">Email</S.FieldLabel>
-                            <S.Field required id="userEmail" placeholder={"Email"} name={'email'}/>
+                            <S.Field required id="userEmail" placeholder={"Email"} name={'email'} />
                         </S.FieldSection>
                         <S.FieldSection>
                             <S.FieldLabel htmlFor="userMessage">Message</S.FieldLabel>
-                            <S.Field required id="userMessage" placeholder={"Type your message"} as={"textarea"} name={'message'}/>
+                            <S.Field required id="userMessage" placeholder={"Type your message"} as={"textarea"} name={'message'} />
                         </S.FieldSection>
                         <SubmitButton type={"submit"}>Send message</SubmitButton>
                     </S.Form>

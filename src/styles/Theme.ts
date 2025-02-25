@@ -3,7 +3,7 @@ export const Theme = {
         primaryBg: "#191919",
         secondaryBg: "#363636",
         accent: "#A7A7A7",
-        
+
         font: "#CCC",
         links: "#FFF",
 
@@ -12,7 +12,7 @@ export const Theme = {
         placeholderColor: "#495057",
 
         footerBorderColor: "#42446E"
-        
+
     },
 
     images: {

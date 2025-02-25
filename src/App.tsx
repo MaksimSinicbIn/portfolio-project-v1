@@ -1,4 +1,3 @@
-import './App.css';
 import { GoTopBtn } from './components/goTopBtn/GoTopBtn';
 import { Footer } from './layout/footer/Footer';
 import { Header } from './layout/header/Header';
@@ -12,14 +11,14 @@ import { Skills } from './layout/sections/skills/Skills';
 function App() {
     return (
         <div className="App">
-            <Header/>
-            <Main/>
-            <About/>
-            <Skills/>
-            <Projects/>
-            <Contact/>
-            <Footer/>
-            <GoTopBtn/>
+            <Header />
+            <Main />
+            <About />
+            <Skills />
+            <Projects />
+            <Contact />
+            <Footer />
+            <GoTopBtn />
         </div>
     );
 }

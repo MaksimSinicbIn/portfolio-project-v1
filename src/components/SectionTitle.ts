@@ -3,7 +3,7 @@ import { Theme } from "../styles/Theme";
 import { font } from "../styles/Common";
 
 export const SectionTitle = styled.h2`
-    ${font({family: "'Poppins', sans-serif", weight: 700, Fmax: 48, Fmin: 34})};
+    ${font({ family: "'Poppins', sans-serif", weight: 700, Fmax: 48, Fmin: 34 })};
     text-align: center;
     margin-bottom: 90px;
     

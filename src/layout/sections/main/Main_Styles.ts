@@ -25,12 +25,12 @@ const Main = styled.section`
 `
 
 const MainTitle = styled.h1`
-    ${font({weight: 700, Fmax: 58, Fmin: 34})}
+    ${font({ weight: 700, Fmax: 58, Fmin: 34 })}
     letter-spacing: -1px;
 `
 
 const Name = styled.h2`
-    ${font({family: "'Poppins', sans-serif", weight: 700, Fmax: 58, Fmin: 34})}
+    ${font({ family: "'Poppins', sans-serif", weight: 700, Fmax: 58, Fmin: 34 })}
     background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -40,7 +40,7 @@ const Name = styled.h2`
 `
 
 const GreetingsText = styled.h2`
-    ${font({weight: 700, Fmax: 58, Fmin: 34})}
+    ${font({ weight: 700, Fmax: 58, Fmin: 34 })}
 `
 
 const GreetingsSmiley = styled.span`
