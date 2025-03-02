@@ -51,14 +51,6 @@ section {
     }
 }
 
-/* section:nth-of-type(odd) {
-    background-color: ${Theme.colors.primaryBg};
-}
-
-section:nth-of-type(even) {
-    background-color: ${Theme.colors.secondaryBg};
-} */
-
 h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
@@ -71,5 +63,4 @@ p {
     font-weight: 300;
     line-height: 1.4;
 }
-
 `

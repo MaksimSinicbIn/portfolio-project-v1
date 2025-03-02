@@ -88,7 +88,6 @@ const SocialLink = styled.a`
     }
 `
 
-
 const Copyright = styled.small`
     background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
     background-clip: text;

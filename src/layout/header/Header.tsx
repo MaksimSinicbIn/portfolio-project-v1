@@ -17,7 +17,6 @@ export const Header: React.FC = () => {
         return () => window.removeEventListener("resize", handleWindowResize);
     }, []);
 
-
     return (
         <S.Header>
             <Container>
