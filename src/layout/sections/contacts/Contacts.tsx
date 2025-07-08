@@ -14,7 +14,7 @@ export const Contact: React.FC = () => {
     const sendEmail = (e: any) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_5u3t18b', 'template_wdeaaeg', e.target, '526bfQqziM8HYkNJp')
+        emailjs.sendForm(`${process.env.REACT_APP_SERVICE_ID}`, `${process.env.REACT_APP_TEMPLATE_ID}`, e.target, `${process.env.REACT_APP_PUBLIC_KEY}`)
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
