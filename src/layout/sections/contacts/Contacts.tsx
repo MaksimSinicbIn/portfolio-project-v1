@@ -6,8 +6,6 @@ import { S } from './Contacts_Styles';
 import { Fade } from "react-awesome-reveal";
 import emailjs from '@emailjs/browser';
 
-
-
 export const Contact: React.FC = () => {
     const form = useRef<ElementRef<'form'>>(null);
 

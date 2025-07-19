@@ -38,7 +38,6 @@ const Project = styled.div`
             transform: translate3d(0, 0, 0);
             }
     }
-    
 
     &::after {
         content: '';
@@ -63,10 +62,6 @@ const Project = styled.div`
     &:hover::after {
         opacity: 1;
     }
-
-    /* @media ${Theme.media.desktop} {
-        max-width: 375px;
-    } */
 `
 const ImageWrapper = styled.div`
     position: relative;

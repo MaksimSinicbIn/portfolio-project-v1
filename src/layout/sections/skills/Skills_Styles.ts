@@ -19,6 +19,5 @@ const Skill = styled.div`
 
 export const S = {
     Skills,
-    Skill,
-    // SkillTitle
+    Skill
 }

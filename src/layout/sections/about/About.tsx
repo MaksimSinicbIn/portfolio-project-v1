@@ -8,7 +8,6 @@ import { Photo } from '../../../components/Photo';
 import { S } from './About_Styles';
 import { Fade } from "react-awesome-reveal";
 
-
 export const About: React.FC = () => {
     return (
         <S.About id="about">
